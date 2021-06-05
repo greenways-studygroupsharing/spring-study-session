@@ -1,0 +1,19 @@
+body {
+	margin: 0;
+}
+#base {
+	display: flex;
+	flex-direction: row;
+	width: 100vm;
+	height: 100 vh;
+	overflow: hidden;
+}
+.new_entry {
+	width: 30%;
+	height: 100vh;
+}
+.thread {
+	width: 70%;
+	height: 100vh;
+	overflow-y: scroll;
+}
