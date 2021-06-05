@@ -1,0 +1,2 @@
+git push -f origin master
+git config --global user.name ユーザー名
