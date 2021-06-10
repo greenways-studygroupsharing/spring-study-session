@@ -1,0 +1,5 @@
+create table thread (
+id int primary key not null auto_increment,
+name varchar(20),
+message varchar(150)
+);
