@@ -20,7 +20,7 @@ public class ThreadController {
 	public String init() {
 		return "/init.html";
 	}
-
+	// 掲示板の初期画面
 	@RequestMapping("/view")
 	public ModelAndView view(@RequestParam(value="page", defaultValue="0") int pageNum) {
 		return new ModelAndView("/view").addObject("entityList", service.getEntity(pageNum));
